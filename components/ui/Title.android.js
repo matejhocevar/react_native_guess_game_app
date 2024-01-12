@@ -11,9 +11,12 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: Colors.white,
     textAlign: "center",
+    // borderWidth: Platform.select({ios: 0, android: 2}), // Platform.OS === "android" ? 2 : 0
     borderWidth: 2,
     borderColor: Colors.white,
     padding: 16,
+    maxWidth: "80%",
+    width: 300,
   }
 });
 
